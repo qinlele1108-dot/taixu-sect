@@ -25,6 +25,9 @@ var breakthrough_button: Button
 var _ui_accumulator := 0.0
 
 func _ready() -> void:
+	var ui_theme := Theme.new()
+	ui_theme.default_font = load("res://assets/fonts/NotoSansSC.ttf")
+	theme = ui_theme
 	_build_interface()
 	GameState.notice.connect(_show_notice)
 	GameState.changed.connect(_refresh_all)

@@ -8,3 +8,5 @@ work/tooling/
 outputs/taixu-sect/*.pck
 outputs/taixu-sect/*.exe
 outputs/taixu-sect/*.zip
+outputs/steam-release-kit/
+outputs/*Steam发布包.zip
